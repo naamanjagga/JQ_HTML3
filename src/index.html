@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <label for="Name">
+				<span>Name</span> 
+				<input type="text" name="Name" id="Name" >
+                <p id="para1">name field cannot be empty</p>
+			</label><br>
+			<label for="Email">
+				<span>Email</span> 
+				<input type="text" name="Email" id="Email">
+                <p id="para2"> email field cannot be empty</p>
+                <p id="para7">enter a valid email</p>
+			</label><br>
+            <label for="Education">Education:</label>
+              <select name="Education" id="Education">
+                <option value="check">...</option>
+                  <option value="b.tech">b.tech</option>
+                  <option value="bba">bba</option>
+                  <option value="bca">bca</option>
+                  <option value="mba">mba</option>
+              </select><br>
+              <p id="para3">tell us about your education</p>
+              <span>gender</span>
+            <input type="radio" name="gender" value="male">male 
+            <input type="radio" name="gender" value="female">female<br>
+            <p id="para4">specify your gender</p>
+            <label for="hobbies">
+                <span>hobbies</span>
+               <input type="checkbox" id="hobby1" name="hobby" value="Drawing">
+               <label for="vehicle1">Drawing</label>
+               <input type="checkbox" id="hobby2" name="hobby" value="Singing">
+               <label for="vehicle2">Singing</label>
+               <input type="checkbox" id="hobby3" name="hobby" value="Dancing">
+               <label for="vehicle3">Dancing</label><br>
+               <p id="para5">check ur hobbies</p>
+            </label>
+            <label for="comment">comment:</label>
+             <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+             <p id="para6">give us a comment</p>
+            <p class="submit">
+				<input type="button" name="btn1" id="btn1" value="Submit">
+			</p>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
